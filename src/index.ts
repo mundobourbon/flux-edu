@@ -1,9 +1,5 @@
-const who = "World";
-
-class Greeting {
-  static hello(who: string) {
-    return `Hello ${who}`;
+export default class App {
+  static run() {
+    return `Hello World`;
   }
 }
-
-Greeting.hello(who)
